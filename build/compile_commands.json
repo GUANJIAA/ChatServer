@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/root/projects/charServer/build/src/server",
+  "command": "/usr/bin/c++    -g -g -I/root/projects/charServer/include -I/root/projects/charServer/include/server -I/root/projects/charServer/include/server/mysqldb -I/root/projects/charServer/include/server/model -I/root/projects/charServer/include/server/redis -I/root/projects/charServer/thirdparty    -o CMakeFiles/ChatServer.dir/chatservice.o -c /root/projects/charServer/src/server/chatservice.cpp",
+  "file": "/root/projects/charServer/src/server/chatservice.cpp"
+},
+{
+  "directory": "/root/projects/charServer/build/src/server",
+  "command": "/usr/bin/c++    -g -g -I/root/projects/charServer/include -I/root/projects/charServer/include/server -I/root/projects/charServer/include/server/mysqldb -I/root/projects/charServer/include/server/model -I/root/projects/charServer/include/server/redis -I/root/projects/charServer/thirdparty    -o CMakeFiles/ChatServer.dir/main.o -c /root/projects/charServer/src/server/main.cpp",
+  "file": "/root/projects/charServer/src/server/main.cpp"
+},
+{
+  "directory": "/root/projects/charServer/build/src/server",
+  "command": "/usr/bin/c++    -g -g -I/root/projects/charServer/include -I/root/projects/charServer/include/server -I/root/projects/charServer/include/server/mysqldb -I/root/projects/charServer/include/server/model -I/root/projects/charServer/include/server/redis -I/root/projects/charServer/thirdparty    -o CMakeFiles/ChatServer.dir/chatserver.o -c /root/projects/charServer/src/server/chatserver.cpp",
+  "file": "/root/projects/charServer/src/server/chatserver.cpp"
+},
+{
+  "directory": "/root/projects/charServer/build/src/server",
+  "command": "/usr/bin/c++    -g -g -I/root/projects/charServer/include -I/root/projects/charServer/include/server -I/root/projects/charServer/include/server/mysqldb -I/root/projects/charServer/include/server/model -I/root/projects/charServer/include/server/redis -I/root/projects/charServer/thirdparty    -o CMakeFiles/ChatServer.dir/mysqldb/mysqldb.o -c /root/projects/charServer/src/server/mysqldb/mysqldb.cpp",
+  "file": "/root/projects/charServer/src/server/mysqldb/mysqldb.cpp"
+},
+{
+  "directory": "/root/projects/charServer/build/src/server",
+  "command": "/usr/bin/c++    -g -g -I/root/projects/charServer/include -I/root/projects/charServer/include/server -I/root/projects/charServer/include/server/mysqldb -I/root/projects/charServer/include/server/model -I/root/projects/charServer/include/server/redis -I/root/projects/charServer/thirdparty    -o CMakeFiles/ChatServer.dir/model/friendmodel.o -c /root/projects/charServer/src/server/model/friendmodel.cpp",
+  "file": "/root/projects/charServer/src/server/model/friendmodel.cpp"
+},
+{
+  "directory": "/root/projects/charServer/build/src/server",
+  "command": "/usr/bin/c++    -g -g -I/root/projects/charServer/include -I/root/projects/charServer/include/server -I/root/projects/charServer/include/server/mysqldb -I/root/projects/charServer/include/server/model -I/root/projects/charServer/include/server/redis -I/root/projects/charServer/thirdparty    -o CMakeFiles/ChatServer.dir/model/offlinemessagemodel.o -c /root/projects/charServer/src/server/model/offlinemessagemodel.cpp",
+  "file": "/root/projects/charServer/src/server/model/offlinemessagemodel.cpp"
+},
+{
+  "directory": "/root/projects/charServer/build/src/server",
+  "command": "/usr/bin/c++    -g -g -I/root/projects/charServer/include -I/root/projects/charServer/include/server -I/root/projects/charServer/include/server/mysqldb -I/root/projects/charServer/include/server/model -I/root/projects/charServer/include/server/redis -I/root/projects/charServer/thirdparty    -o CMakeFiles/ChatServer.dir/model/groupmodel.o -c /root/projects/charServer/src/server/model/groupmodel.cpp",
+  "file": "/root/projects/charServer/src/server/model/groupmodel.cpp"
+},
+{
+  "directory": "/root/projects/charServer/build/src/server",
+  "command": "/usr/bin/c++    -g -g -I/root/projects/charServer/include -I/root/projects/charServer/include/server -I/root/projects/charServer/include/server/mysqldb -I/root/projects/charServer/include/server/model -I/root/projects/charServer/include/server/redis -I/root/projects/charServer/thirdparty    -o CMakeFiles/ChatServer.dir/model/usermodel.o -c /root/projects/charServer/src/server/model/usermodel.cpp",
+  "file": "/root/projects/charServer/src/server/model/usermodel.cpp"
+},
+{
+  "directory": "/root/projects/charServer/build/src/server",
+  "command": "/usr/bin/c++    -g -g -I/root/projects/charServer/include -I/root/projects/charServer/include/server -I/root/projects/charServer/include/server/mysqldb -I/root/projects/charServer/include/server/model -I/root/projects/charServer/include/server/redis -I/root/projects/charServer/thirdparty    -o CMakeFiles/ChatServer.dir/redis/redis.o -c /root/projects/charServer/src/server/redis/redis.cpp",
+  "file": "/root/projects/charServer/src/server/redis/redis.cpp"
+},
+{
+  "directory": "/root/projects/charServer/build/src/client",
+  "command": "/usr/bin/c++    -g -g -I/root/projects/charServer/include -I/root/projects/charServer/include/server -I/root/projects/charServer/include/server/mysqldb -I/root/projects/charServer/include/server/model -I/root/projects/charServer/include/server/redis -I/root/projects/charServer/thirdparty    -o CMakeFiles/ChatClient.dir/main.o -c /root/projects/charServer/src/client/main.cpp",
+  "file": "/root/projects/charServer/src/client/main.cpp"
+}
+]
