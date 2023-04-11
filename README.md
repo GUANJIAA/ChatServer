@@ -71,7 +71,7 @@ source ./source/chat.sql;
 
 在nginx.conf文件中加入下面文字
 
-![image-20230411210631674](C:\Users\GUANJIAA\Desktop\README.assets\image-20230411210631674.png)
+![image-20230411210631674](./source/image/image-20230411210631674.png)
 
 ## 项目内容：
 
@@ -83,7 +83,7 @@ source ./source/chat.sql;
 
 ## 服务器架构
 
-![image-20230411212756360](C:\Users\GUANJIAA\Desktop\README.assets\image-20230411212756360.png)
+![image-20230411212756360](./source/image/image-20230411212756360.png)
 
 ### 收获
 
