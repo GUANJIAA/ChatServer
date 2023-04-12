@@ -1,2 +1,0 @@
-/root/projects/charServer/build/src/client/CMakeFiles/ChatClient.dir
-/root/projects/charServer/build/src/server/CMakeFiles/ChatServer.dir
