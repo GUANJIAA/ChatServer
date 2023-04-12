@@ -12,6 +12,7 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "/root/projects/charServer/src/server/model/offlinemessagemodel.cpp" "/root/projects/charServer/build/src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.o"
   "/root/projects/charServer/src/server/model/usermodel.cpp" "/root/projects/charServer/build/src/server/CMakeFiles/ChatServer.dir/model/usermodel.o"
   "/root/projects/charServer/src/server/mysqldb/mysqldb.cpp" "/root/projects/charServer/build/src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.o"
+  "/root/projects/charServer/src/server/mysqldb/mysqldbconnectionpool.cpp" "/root/projects/charServer/build/src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o"
   "/root/projects/charServer/src/server/redis/redis.cpp" "/root/projects/charServer/build/src/server/CMakeFiles/ChatServer.dir/redis/redis.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")

@@ -2,6 +2,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/ChatServer.dir/chatservice.o"
   "CMakeFiles/ChatServer.dir/main.o"
   "CMakeFiles/ChatServer.dir/chatserver.o"
+  "CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o"
   "CMakeFiles/ChatServer.dir/mysqldb/mysqldb.o"
   "CMakeFiles/ChatServer.dir/model/friendmodel.o"
   "CMakeFiles/ChatServer.dir/model/offlinemessagemodel.o"

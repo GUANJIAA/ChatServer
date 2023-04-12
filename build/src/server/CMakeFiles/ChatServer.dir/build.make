@@ -121,9 +121,32 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.o.provides: src/server/CMakeFile
 
 src/server/CMakeFiles/ChatServer.dir/chatserver.o.provides.build: src/server/CMakeFiles/ChatServer.dir/chatserver.o
 
+src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o: ../src/server/mysqldb/mysqldbconnectionpool.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/projects/charServer/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o"
+	cd /root/projects/charServer/build/src/server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o -c /root/projects/charServer/src/server/mysqldb/mysqldbconnectionpool.cpp
+
+src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.i"
+	cd /root/projects/charServer/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/projects/charServer/src/server/mysqldb/mysqldbconnectionpool.cpp > CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.i
+
+src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.s"
+	cd /root/projects/charServer/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/projects/charServer/src/server/mysqldb/mysqldbconnectionpool.cpp -o CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.s
+
+src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o.requires:
+.PHONY : src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o.requires
+
+src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o.provides: src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o.requires
+	$(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o.provides.build
+.PHONY : src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o.provides
+
+src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o.provides.build: src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o
+
 src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.o: src/server/CMakeFiles/ChatServer.dir/flags.make
 src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.o: ../src/server/mysqldb/mysqldb.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/projects/charServer/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/projects/charServer/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.o"
 	cd /root/projects/charServer/build/src/server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ChatServer.dir/mysqldb/mysqldb.o -c /root/projects/charServer/src/server/mysqldb/mysqldb.cpp
 
@@ -146,7 +169,7 @@ src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.o.provides.build: src/serve
 
 src/server/CMakeFiles/ChatServer.dir/model/friendmodel.o: src/server/CMakeFiles/ChatServer.dir/flags.make
 src/server/CMakeFiles/ChatServer.dir/model/friendmodel.o: ../src/server/model/friendmodel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/projects/charServer/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/projects/charServer/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/server/CMakeFiles/ChatServer.dir/model/friendmodel.o"
 	cd /root/projects/charServer/build/src/server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ChatServer.dir/model/friendmodel.o -c /root/projects/charServer/src/server/model/friendmodel.cpp
 
@@ -169,7 +192,7 @@ src/server/CMakeFiles/ChatServer.dir/model/friendmodel.o.provides.build: src/ser
 
 src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.o: src/server/CMakeFiles/ChatServer.dir/flags.make
 src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.o: ../src/server/model/offlinemessagemodel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/projects/charServer/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/projects/charServer/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.o"
 	cd /root/projects/charServer/build/src/server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ChatServer.dir/model/offlinemessagemodel.o -c /root/projects/charServer/src/server/model/offlinemessagemodel.cpp
 
@@ -192,7 +215,7 @@ src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.o.provides.build:
 
 src/server/CMakeFiles/ChatServer.dir/model/groupmodel.o: src/server/CMakeFiles/ChatServer.dir/flags.make
 src/server/CMakeFiles/ChatServer.dir/model/groupmodel.o: ../src/server/model/groupmodel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/projects/charServer/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/projects/charServer/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/server/CMakeFiles/ChatServer.dir/model/groupmodel.o"
 	cd /root/projects/charServer/build/src/server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ChatServer.dir/model/groupmodel.o -c /root/projects/charServer/src/server/model/groupmodel.cpp
 
@@ -215,7 +238,7 @@ src/server/CMakeFiles/ChatServer.dir/model/groupmodel.o.provides.build: src/serv
 
 src/server/CMakeFiles/ChatServer.dir/model/usermodel.o: src/server/CMakeFiles/ChatServer.dir/flags.make
 src/server/CMakeFiles/ChatServer.dir/model/usermodel.o: ../src/server/model/usermodel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/projects/charServer/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/projects/charServer/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/server/CMakeFiles/ChatServer.dir/model/usermodel.o"
 	cd /root/projects/charServer/build/src/server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ChatServer.dir/model/usermodel.o -c /root/projects/charServer/src/server/model/usermodel.cpp
 
@@ -238,7 +261,7 @@ src/server/CMakeFiles/ChatServer.dir/model/usermodel.o.provides.build: src/serve
 
 src/server/CMakeFiles/ChatServer.dir/redis/redis.o: src/server/CMakeFiles/ChatServer.dir/flags.make
 src/server/CMakeFiles/ChatServer.dir/redis/redis.o: ../src/server/redis/redis.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/projects/charServer/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/projects/charServer/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/server/CMakeFiles/ChatServer.dir/redis/redis.o"
 	cd /root/projects/charServer/build/src/server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ChatServer.dir/redis/redis.o -c /root/projects/charServer/src/server/redis/redis.cpp
 
@@ -264,6 +287,7 @@ ChatServer_OBJECTS = \
 "CMakeFiles/ChatServer.dir/chatservice.o" \
 "CMakeFiles/ChatServer.dir/main.o" \
 "CMakeFiles/ChatServer.dir/chatserver.o" \
+"CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o" \
 "CMakeFiles/ChatServer.dir/mysqldb/mysqldb.o" \
 "CMakeFiles/ChatServer.dir/model/friendmodel.o" \
 "CMakeFiles/ChatServer.dir/model/offlinemessagemodel.o" \
@@ -277,6 +301,7 @@ ChatServer_EXTERNAL_OBJECTS =
 ../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/chatservice.o
 ../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/main.o
 ../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/chatserver.o
+../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o
 ../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.o
 ../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/model/friendmodel.o
 ../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.o
@@ -295,6 +320,7 @@ src/server/CMakeFiles/ChatServer.dir/build: ../bin/ChatServer
 src/server/CMakeFiles/ChatServer.dir/requires: src/server/CMakeFiles/ChatServer.dir/chatservice.o.requires
 src/server/CMakeFiles/ChatServer.dir/requires: src/server/CMakeFiles/ChatServer.dir/main.o.requires
 src/server/CMakeFiles/ChatServer.dir/requires: src/server/CMakeFiles/ChatServer.dir/chatserver.o.requires
+src/server/CMakeFiles/ChatServer.dir/requires: src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o.requires
 src/server/CMakeFiles/ChatServer.dir/requires: src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.o.requires
 src/server/CMakeFiles/ChatServer.dir/requires: src/server/CMakeFiles/ChatServer.dir/model/friendmodel.o.requires
 src/server/CMakeFiles/ChatServer.dir/requires: src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.o.requires

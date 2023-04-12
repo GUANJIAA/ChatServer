@@ -236,6 +236,21 @@ mysqldb/mysqldb.s:
 .PHONY : mysqldb/mysqldb.s
 
 # target to build an object file
+mysqldb/mysqldbconnectionpool.o:
+	cd /root/projects/charServer/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o
+.PHONY : mysqldb/mysqldbconnectionpool.o
+
+# target to preprocess a source file
+mysqldb/mysqldbconnectionpool.i:
+	cd /root/projects/charServer/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.i
+.PHONY : mysqldb/mysqldbconnectionpool.i
+
+# target to generate assembly for a file
+mysqldb/mysqldbconnectionpool.s:
+	cd /root/projects/charServer/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.s
+.PHONY : mysqldb/mysqldbconnectionpool.s
+
+# target to build an object file
 redis/redis.o:
 	cd /root/projects/charServer/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.o
 .PHONY : redis/redis.o
@@ -283,6 +298,9 @@ help:
 	@echo "... mysqldb/mysqldb.o"
 	@echo "... mysqldb/mysqldb.i"
 	@echo "... mysqldb/mysqldb.s"
+	@echo "... mysqldb/mysqldbconnectionpool.o"
+	@echo "... mysqldb/mysqldbconnectionpool.i"
+	@echo "... mysqldb/mysqldbconnectionpool.s"
 	@echo "... redis/redis.o"
 	@echo "... redis/redis.i"
 	@echo "... redis/redis.s"

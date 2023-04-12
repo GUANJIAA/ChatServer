@@ -80,6 +80,26 @@ mysql/mysql.h
 string
 -
 
+../include/server/mysqldb/mysqldbconnectionpool.hpp
+stdio.h
+-
+list
+-
+mysql/mysql.h
+-
+error.h
+-
+string.h
+-
+string
+-
+muduo/base/Logging.h
+-
+semaphore.h
+-
+mysqldb.hpp
+../include/server/mysqldb/mysqldb.hpp
+
 ../include/server/redis/redis.hpp
 hiredis/hiredis.h
 -
@@ -483,6 +503,10 @@ mysqldb.hpp
 /root/projects/charServer/src/server/mysqldb/mysqldb.hpp
 muduo/base/Logging.h
 -
+
+/root/projects/charServer/src/server/mysqldb/mysqldbconnectionpool.cpp
+mysqldbconnectionpool.hpp
+/root/projects/charServer/src/server/mysqldb/mysqldbconnectionpool.hpp
 
 /root/projects/charServer/src/server/redis/redis.cpp
 redis.hpp

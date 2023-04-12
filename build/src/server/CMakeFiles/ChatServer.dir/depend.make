@@ -64,6 +64,10 @@ src/server/CMakeFiles/ChatServer.dir/model/usermodel.o: ../src/server/model/user
 src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.o: ../include/server/mysqldb/mysqldb.hpp
 src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.o: ../src/server/mysqldb/mysqldb.cpp
 
+src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o: ../include/server/mysqldb/mysqldb.hpp
+src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o: ../include/server/mysqldb/mysqldbconnectionpool.hpp
+src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldbconnectionpool.o: ../src/server/mysqldb/mysqldbconnectionpool.cpp
+
 src/server/CMakeFiles/ChatServer.dir/redis/redis.o: ../include/server/redis/redis.hpp
 src/server/CMakeFiles/ChatServer.dir/redis/redis.o: ../src/server/redis/redis.cpp
 
